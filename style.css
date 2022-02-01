@@ -50,6 +50,11 @@ body{
     cursor: pointer;
 
 }
+
+.nav__item:hover{
+    border: 10px rgba(4, 13, 110, 0.87);
+ }
+
 .hero__image__container{
     width: 100%;
 
@@ -70,6 +75,31 @@ body{
     margin: 20px 0;
 }
 
+.food__card__image__container{
+    width:100% ;
+}
+
+.food__image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.food__card{
+    background-color:#fff ;
+    border-radius: 8px;
+    margin: 14px;
+}
+
+.food__card__description{
+    padding: 15px;   
+}
+
+.explore__menu__text{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 
 @media (min-width: 768px) {
@@ -103,12 +133,9 @@ body{
     }
 .hero__text{
     font-size: 50px;
+    }
 }
 
-}
-.nav__item:hover{
-   border: 10px rgba(4, 13, 110, 0.87);
-}
 
 @media(min-width:1400px){
     .container{
